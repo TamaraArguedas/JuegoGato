@@ -1,0 +1,10 @@
+C:\Users\Johanna Arguedas\Desktop\Proyectos\C#\JuegoGato\JuegoGato\JuegoGato\bin\Debug\JuegoGato.exe.config
+C:\Users\Johanna Arguedas\Desktop\Proyectos\C#\JuegoGato\JuegoGato\JuegoGato\bin\Debug\JuegoGato.exe
+C:\Users\Johanna Arguedas\Desktop\Proyectos\C#\JuegoGato\JuegoGato\JuegoGato\bin\Debug\JuegoGato.pdb
+C:\Users\Johanna Arguedas\Desktop\Proyectos\C#\JuegoGato\JuegoGato\JuegoGato\obj\Debug\JuegoGato.csproj.AssemblyReference.cache
+C:\Users\Johanna Arguedas\Desktop\Proyectos\C#\JuegoGato\JuegoGato\JuegoGato\obj\Debug\JuegoGato.Form1.resources
+C:\Users\Johanna Arguedas\Desktop\Proyectos\C#\JuegoGato\JuegoGato\JuegoGato\obj\Debug\JuegoGato.Properties.Resources.resources
+C:\Users\Johanna Arguedas\Desktop\Proyectos\C#\JuegoGato\JuegoGato\JuegoGato\obj\Debug\JuegoGato.csproj.GenerateResource.cache
+C:\Users\Johanna Arguedas\Desktop\Proyectos\C#\JuegoGato\JuegoGato\JuegoGato\obj\Debug\JuegoGato.csproj.CoreCompileInputs.cache
+C:\Users\Johanna Arguedas\Desktop\Proyectos\C#\JuegoGato\JuegoGato\JuegoGato\obj\Debug\JuegoGato.exe
+C:\Users\Johanna Arguedas\Desktop\Proyectos\C#\JuegoGato\JuegoGato\JuegoGato\obj\Debug\JuegoGato.pdb
