@@ -95,5 +95,11 @@
   <ItemGroup>
     <None Include="Resources\descarga %281%29.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\abstract-blur-gradient-background-vector.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1783012.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

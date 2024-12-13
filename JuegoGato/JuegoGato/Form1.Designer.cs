@@ -39,108 +39,122 @@
             this.c1 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.ptsPlayer2 = new System.Windows.Forms.Label();
+            this.btnReiniciar = new System.Windows.Forms.Button();
+            this.ptsPlayer1 = new System.Windows.Forms.Label();
+            this.btnLimpiar = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnNewGame = new System.Windows.Forms.Button();
             this.txtUser2 = new System.Windows.Forms.TextBox();
             this.txtUser1 = new System.Windows.Forms.TextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.RbUSer2O = new System.Windows.Forms.RadioButton();
+            this.RbUser2O = new System.Windows.Forms.RadioButton();
             this.RbUser2X = new System.Windows.Forms.RadioButton();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.RbUser1O = new System.Windows.Forms.RadioButton();
             this.RbUser1X = new System.Windows.Forms.RadioButton();
-            this.label2 = new System.Windows.Forms.Label();
-            this.player2 = new System.Windows.Forms.Label();
-            this.player1 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.Player2 = new System.Windows.Forms.Label();
+            this.Player1 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.ptsPlayer1 = new System.Windows.Forms.Label();
-            this.ptsPlayer2 = new System.Windows.Forms.Label();
-            this.btnReiniciar = new System.Windows.Forms.Button();
-            this.btnLimpiar = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // a1
             // 
-            this.a1.Location = new System.Drawing.Point(2, 3);
+            this.a1.Font = new System.Drawing.Font("Consolas", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.a1.Location = new System.Drawing.Point(2, 1);
             this.a1.Name = "a1";
-            this.a1.Size = new System.Drawing.Size(81, 72);
+            this.a1.Size = new System.Drawing.Size(90, 90);
             this.a1.TabIndex = 0;
             this.a1.UseVisualStyleBackColor = true;
+            this.a1.Click += new System.EventHandler(this.Buttons_Click);
             // 
             // a2
             // 
-            this.a2.Location = new System.Drawing.Point(89, 3);
+            this.a2.Font = new System.Drawing.Font("Consolas", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.a2.Location = new System.Drawing.Point(98, 1);
             this.a2.Name = "a2";
-            this.a2.Size = new System.Drawing.Size(81, 72);
+            this.a2.Size = new System.Drawing.Size(90, 90);
             this.a2.TabIndex = 1;
             this.a2.UseVisualStyleBackColor = true;
+            this.a2.Click += new System.EventHandler(this.Buttons_Click);
             // 
             // a3
             // 
-            this.a3.Location = new System.Drawing.Point(176, 3);
+            this.a3.Font = new System.Drawing.Font("Consolas", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.a3.Location = new System.Drawing.Point(194, 1);
             this.a3.Name = "a3";
-            this.a3.Size = new System.Drawing.Size(81, 72);
+            this.a3.Size = new System.Drawing.Size(90, 90);
             this.a3.TabIndex = 2;
             this.a3.UseVisualStyleBackColor = true;
+            this.a3.Click += new System.EventHandler(this.Buttons_Click);
             // 
             // b3
             // 
-            this.b3.Location = new System.Drawing.Point(176, 81);
+            this.b3.Font = new System.Drawing.Font("Consolas", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.b3.Location = new System.Drawing.Point(194, 97);
             this.b3.Name = "b3";
-            this.b3.Size = new System.Drawing.Size(81, 72);
+            this.b3.Size = new System.Drawing.Size(90, 90);
             this.b3.TabIndex = 5;
             this.b3.UseVisualStyleBackColor = true;
-            this.b3.Click += new System.EventHandler(this.button4_Click);
+            this.b3.Click += new System.EventHandler(this.Buttons_Click);
             // 
             // b2
             // 
-            this.b2.Location = new System.Drawing.Point(89, 81);
+            this.b2.Font = new System.Drawing.Font("Consolas", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.b2.Location = new System.Drawing.Point(98, 97);
             this.b2.Name = "b2";
-            this.b2.Size = new System.Drawing.Size(81, 72);
+            this.b2.Size = new System.Drawing.Size(90, 90);
             this.b2.TabIndex = 4;
             this.b2.UseVisualStyleBackColor = true;
-            this.b2.Click += new System.EventHandler(this.button5_Click);
+            this.b2.Click += new System.EventHandler(this.Buttons_Click);
             // 
             // b1
             // 
-            this.b1.Location = new System.Drawing.Point(2, 81);
+            this.b1.Font = new System.Drawing.Font("Consolas", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.b1.Location = new System.Drawing.Point(2, 97);
             this.b1.Name = "b1";
-            this.b1.Size = new System.Drawing.Size(81, 72);
+            this.b1.Size = new System.Drawing.Size(90, 90);
             this.b1.TabIndex = 3;
             this.b1.UseVisualStyleBackColor = true;
-            this.b1.Click += new System.EventHandler(this.button6_Click);
+            this.b1.Click += new System.EventHandler(this.Buttons_Click);
             // 
             // c3
             // 
-            this.c3.Location = new System.Drawing.Point(176, 159);
+            this.c3.Font = new System.Drawing.Font("Consolas", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.c3.Location = new System.Drawing.Point(194, 193);
             this.c3.Name = "c3";
-            this.c3.Size = new System.Drawing.Size(81, 72);
+            this.c3.Size = new System.Drawing.Size(90, 90);
             this.c3.TabIndex = 8;
             this.c3.UseVisualStyleBackColor = true;
+            this.c3.Click += new System.EventHandler(this.Buttons_Click);
             // 
             // c2
             // 
-            this.c2.Location = new System.Drawing.Point(89, 159);
+            this.c2.Font = new System.Drawing.Font("Consolas", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.c2.Location = new System.Drawing.Point(98, 193);
             this.c2.Name = "c2";
-            this.c2.Size = new System.Drawing.Size(81, 72);
+            this.c2.Size = new System.Drawing.Size(90, 90);
             this.c2.TabIndex = 7;
             this.c2.UseVisualStyleBackColor = true;
+            this.c2.Click += new System.EventHandler(this.Buttons_Click);
             // 
             // c1
             // 
-            this.c1.Location = new System.Drawing.Point(2, 159);
+            this.c1.Font = new System.Drawing.Font("Consolas", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.c1.Location = new System.Drawing.Point(2, 193);
             this.c1.Name = "c1";
-            this.c1.Size = new System.Drawing.Size(81, 72);
+            this.c1.Size = new System.Drawing.Size(90, 90);
             this.c1.TabIndex = 6;
             this.c1.UseVisualStyleBackColor = true;
-            this.c1.Click += new System.EventHandler(this.button9_Click);
+            this.c1.Click += new System.EventHandler(this.Buttons_Click);
             // 
             // panel1
             // 
@@ -154,87 +168,151 @@
             this.panel1.Controls.Add(this.b1);
             this.panel1.Controls.Add(this.b3);
             this.panel1.Controls.Add(this.b2);
-            this.panel1.Location = new System.Drawing.Point(12, 103);
+            this.panel1.Location = new System.Drawing.Point(51, 120);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(258, 235);
+            this.panel1.Size = new System.Drawing.Size(286, 284);
             this.panel1.TabIndex = 9;
             // 
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox1.Controls.Add(this.btnLimpiar);
-            this.groupBox1.Controls.Add(this.btnReiniciar);
             this.groupBox1.Controls.Add(this.ptsPlayer2);
+            this.groupBox1.Controls.Add(this.btnReiniciar);
             this.groupBox1.Controls.Add(this.ptsPlayer1);
+            this.groupBox1.Controls.Add(this.btnLimpiar);
+            this.groupBox1.Controls.Add(this.pictureBox1);
             this.groupBox1.Controls.Add(this.btnNewGame);
             this.groupBox1.Controls.Add(this.txtUser2);
             this.groupBox1.Controls.Add(this.txtUser1);
             this.groupBox1.Controls.Add(this.groupBox3);
             this.groupBox1.Controls.Add(this.groupBox2);
-            this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.player2);
-            this.groupBox1.Controls.Add(this.player1);
+            this.groupBox1.Controls.Add(this.label4);
+            this.groupBox1.Controls.Add(this.Player2);
+            this.groupBox1.Controls.Add(this.Player1);
             this.groupBox1.Controls.Add(this.pictureBox2);
-            this.groupBox1.Controls.Add(this.pictureBox1);
-            this.groupBox1.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(304, 21);
+            this.groupBox1.Font = new System.Drawing.Font("Consolas", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.ForeColor = System.Drawing.SystemColors.Control;
+            this.groupBox1.Location = new System.Drawing.Point(411, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(213, 479);
+            this.groupBox1.Size = new System.Drawing.Size(280, 531);
             this.groupBox1.TabIndex = 10;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Jugadores";
+            this.groupBox1.Text = "Players";
+            // 
+            // ptsPlayer2
+            // 
+            this.ptsPlayer2.AutoSize = true;
+            this.ptsPlayer2.BackColor = System.Drawing.Color.Transparent;
+            this.ptsPlayer2.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ptsPlayer2.Location = new System.Drawing.Point(131, 417);
+            this.ptsPlayer2.Name = "ptsPlayer2";
+            this.ptsPlayer2.Size = new System.Drawing.Size(20, 22);
+            this.ptsPlayer2.TabIndex = 13;
+            this.ptsPlayer2.Text = "0";
+            this.ptsPlayer2.Visible = false;
+            // 
+            // btnReiniciar
+            // 
+            this.btnReiniciar.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReiniciar.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnReiniciar.Location = new System.Drawing.Point(163, 467);
+            this.btnReiniciar.Name = "btnReiniciar";
+            this.btnReiniciar.Size = new System.Drawing.Size(99, 35);
+            this.btnReiniciar.TabIndex = 11;
+            this.btnReiniciar.Text = "Restart";
+            this.btnReiniciar.UseVisualStyleBackColor = true;
+            this.btnReiniciar.Visible = false;
+            this.btnReiniciar.Click += new System.EventHandler(this.btnReiniciar_Click);
+            // 
+            // ptsPlayer1
+            // 
+            this.ptsPlayer1.AutoSize = true;
+            this.ptsPlayer1.BackColor = System.Drawing.Color.Transparent;
+            this.ptsPlayer1.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ptsPlayer1.Location = new System.Drawing.Point(131, 196);
+            this.ptsPlayer1.Name = "ptsPlayer1";
+            this.ptsPlayer1.Size = new System.Drawing.Size(20, 22);
+            this.ptsPlayer1.TabIndex = 12;
+            this.ptsPlayer1.Text = "0";
+            this.ptsPlayer1.Visible = false;
+            // 
+            // btnLimpiar
+            // 
+            this.btnLimpiar.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLimpiar.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnLimpiar.Location = new System.Drawing.Point(23, 467);
+            this.btnLimpiar.Name = "btnLimpiar";
+            this.btnLimpiar.Size = new System.Drawing.Size(99, 35);
+            this.btnLimpiar.TabIndex = 10;
+            this.btnLimpiar.Text = "Clean";
+            this.btnLimpiar.UseVisualStyleBackColor = true;
+            this.btnLimpiar.Visible = false;
+            this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::JuegoGato.Properties.Resources._1783012;
+            this.pictureBox1.Location = new System.Drawing.Point(93, 34);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(103, 100);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // btnNewGame
             // 
-            this.btnNewGame.Location = new System.Drawing.Point(75, 430);
+            this.btnNewGame.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNewGame.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnNewGame.Location = new System.Drawing.Point(93, 467);
             this.btnNewGame.Name = "btnNewGame";
-            this.btnNewGame.Size = new System.Drawing.Size(77, 30);
+            this.btnNewGame.Size = new System.Drawing.Size(99, 35);
             this.btnNewGame.TabIndex = 9;
-            this.btnNewGame.Text = "Iniciar";
+            this.btnNewGame.Text = "New Game";
             this.btnNewGame.UseVisualStyleBackColor = true;
+            this.btnNewGame.Click += new System.EventHandler(this.btnNewGame_Click);
             // 
             // txtUser2
             // 
-            this.txtUser2.Location = new System.Drawing.Point(61, 374);
+            this.txtUser2.Location = new System.Drawing.Point(92, 414);
             this.txtUser2.Name = "txtUser2";
-            this.txtUser2.Size = new System.Drawing.Size(106, 23);
+            this.txtUser2.Size = new System.Drawing.Size(103, 25);
             this.txtUser2.TabIndex = 8;
             // 
             // txtUser1
             // 
-            this.txtUser1.Location = new System.Drawing.Point(61, 171);
+            this.txtUser1.Location = new System.Drawing.Point(93, 194);
             this.txtUser1.Name = "txtUser1";
-            this.txtUser1.Size = new System.Drawing.Size(106, 23);
+            this.txtUser1.Size = new System.Drawing.Size(103, 25);
             this.txtUser1.TabIndex = 7;
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.RbUSer2O);
+            this.groupBox3.Controls.Add(this.RbUser2O);
             this.groupBox3.Controls.Add(this.RbUser2X);
-            this.groupBox3.Location = new System.Drawing.Point(71, 332);
+            this.groupBox3.Location = new System.Drawing.Point(105, 375);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(82, 36);
+            this.groupBox3.Size = new System.Drawing.Size(76, 32);
             this.groupBox3.TabIndex = 6;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Enter += new System.EventHandler(this.groupBox3_Enter);
             // 
-            // RbUSer2O
+            // RbUser2O
             // 
-            this.RbUSer2O.AutoSize = true;
-            this.RbUSer2O.Location = new System.Drawing.Point(44, 13);
-            this.RbUSer2O.Name = "RbUSer2O";
-            this.RbUSer2O.Size = new System.Drawing.Size(32, 19);
-            this.RbUSer2O.TabIndex = 1;
-            this.RbUSer2O.TabStop = true;
-            this.RbUSer2O.Text = "O";
-            this.RbUSer2O.UseVisualStyleBackColor = true;
+            this.RbUser2O.AutoSize = true;
+            this.RbUser2O.Location = new System.Drawing.Point(44, 9);
+            this.RbUser2O.Name = "RbUser2O";
+            this.RbUser2O.Size = new System.Drawing.Size(34, 22);
+            this.RbUser2O.TabIndex = 1;
+            this.RbUser2O.TabStop = true;
+            this.RbUser2O.Text = "O";
+            this.RbUser2O.UseVisualStyleBackColor = true;
             // 
             // RbUser2X
             // 
             this.RbUser2X.AutoSize = true;
-            this.RbUser2X.Location = new System.Drawing.Point(6, 13);
+            this.RbUser2X.Location = new System.Drawing.Point(6, 9);
             this.RbUser2X.Name = "RbUser2X";
-            this.RbUser2X.Size = new System.Drawing.Size(32, 19);
+            this.RbUser2X.Size = new System.Drawing.Size(34, 22);
             this.RbUser2X.TabIndex = 0;
             this.RbUser2X.TabStop = true;
             this.RbUser2X.Text = "X";
@@ -244,158 +322,116 @@
             // 
             this.groupBox2.Controls.Add(this.RbUser1O);
             this.groupBox2.Controls.Add(this.RbUser1X);
-            this.groupBox2.Location = new System.Drawing.Point(71, 131);
+            this.groupBox2.Location = new System.Drawing.Point(105, 156);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(82, 34);
+            this.groupBox2.Size = new System.Drawing.Size(76, 32);
             this.groupBox2.TabIndex = 5;
             this.groupBox2.TabStop = false;
+            this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
             // RbUser1O
             // 
             this.RbUser1O.AutoSize = true;
-            this.RbUser1O.Location = new System.Drawing.Point(44, 13);
+            this.RbUser1O.Location = new System.Drawing.Point(44, 9);
             this.RbUser1O.Name = "RbUser1O";
-            this.RbUser1O.Size = new System.Drawing.Size(32, 19);
+            this.RbUser1O.Size = new System.Drawing.Size(34, 22);
             this.RbUser1O.TabIndex = 1;
             this.RbUser1O.TabStop = true;
             this.RbUser1O.Text = "O";
             this.RbUser1O.UseVisualStyleBackColor = true;
+            this.RbUser1O.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
             // 
             // RbUser1X
             // 
             this.RbUser1X.AutoSize = true;
-            this.RbUser1X.Location = new System.Drawing.Point(6, 13);
+            this.RbUser1X.Location = new System.Drawing.Point(6, 9);
             this.RbUser1X.Name = "RbUser1X";
-            this.RbUser1X.Size = new System.Drawing.Size(32, 19);
+            this.RbUser1X.Size = new System.Drawing.Size(34, 22);
             this.RbUser1X.TabIndex = 0;
             this.RbUser1X.TabStop = true;
             this.RbUser1X.Text = "X";
             this.RbUser1X.UseVisualStyleBackColor = true;
-            this.RbUser1X.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
             // 
-            // label2
+            // label4
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(98, 221);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(21, 15);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "VS";
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(132, 232);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(24, 18);
+            this.label4.TabIndex = 4;
+            this.label4.Text = "VS";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
-            // player2
+            // Player2
             // 
-            this.player2.AutoSize = true;
-            this.player2.Location = new System.Drawing.Point(74, 316);
-            this.player2.Name = "player2";
-            this.player2.Size = new System.Drawing.Size(70, 15);
-            this.player2.TabIndex = 3;
-            this.player2.Text = "Jugador 2";
+            this.Player2.AutoSize = true;
+            this.Player2.Location = new System.Drawing.Point(102, 356);
+            this.Player2.Name = "Player2";
+            this.Player2.Size = new System.Drawing.Size(72, 18);
+            this.Player2.TabIndex = 3;
+            this.Player2.Text = "Player 2";
+            this.Player2.Click += new System.EventHandler(this.label3_Click);
             // 
-            // player1
+            // Player1
             // 
-            this.player1.AutoSize = true;
-            this.player1.Location = new System.Drawing.Point(74, 114);
-            this.player1.Name = "player1";
-            this.player1.Size = new System.Drawing.Size(70, 15);
-            this.player1.TabIndex = 2;
-            this.player1.Text = "Jugador 1";
-            this.player1.Click += new System.EventHandler(this.label2_Click);
+            this.Player1.AutoSize = true;
+            this.Player1.ForeColor = System.Drawing.SystemColors.Control;
+            this.Player1.Location = new System.Drawing.Point(104, 137);
+            this.Player1.Name = "Player1";
+            this.Player1.Size = new System.Drawing.Size(72, 18);
+            this.Player1.TabIndex = 2;
+            this.Player1.Text = "Player 1";
+            this.Player1.Click += new System.EventHandler(this.label2_Click);
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::JuegoGato.Properties.Resources.descarga__1_;
-            this.pictureBox2.Location = new System.Drawing.Point(70, 237);
+            this.pictureBox2.Image = global::JuegoGato.Properties.Resources._1783012;
+            this.pictureBox2.Location = new System.Drawing.Point(93, 253);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(82, 76);
+            this.pictureBox2.Size = new System.Drawing.Size(103, 100);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::JuegoGato.Properties.Resources.descarga__1_;
-            this.pictureBox1.Location = new System.Drawing.Point(70, 35);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(82, 76);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Consolas", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(4, 33);
+            this.label1.ForeColor = System.Drawing.SystemColors.Control;
+            this.label1.Location = new System.Drawing.Point(43, 46);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(284, 56);
+            this.label1.Size = new System.Drawing.Size(310, 56);
             this.label1.TabIndex = 11;
-            this.label1.Text = "Juego Gato";
+            this.label1.Text = "Tic Tac Toe";
             // 
-            // ptsPlayer1
-            // 
-            this.ptsPlayer1.AutoSize = true;
-            this.ptsPlayer1.Location = new System.Drawing.Point(105, 174);
-            this.ptsPlayer1.Name = "ptsPlayer1";
-            this.ptsPlayer1.Size = new System.Drawing.Size(14, 15);
-            this.ptsPlayer1.TabIndex = 10;
-            this.ptsPlayer1.Text = "0";
-            this.ptsPlayer1.Visible = false;
-            // 
-            // ptsPlayer2
-            // 
-            this.ptsPlayer2.AutoSize = true;
-            this.ptsPlayer2.Location = new System.Drawing.Point(105, 377);
-            this.ptsPlayer2.Name = "ptsPlayer2";
-            this.ptsPlayer2.Size = new System.Drawing.Size(14, 15);
-            this.ptsPlayer2.TabIndex = 11;
-            this.ptsPlayer2.Text = "0";
-            this.ptsPlayer2.Visible = false;
-            // 
-            // btnReiniciar
-            // 
-            this.btnReiniciar.Location = new System.Drawing.Point(130, 430);
-            this.btnReiniciar.Name = "btnReiniciar";
-            this.btnReiniciar.Size = new System.Drawing.Size(77, 30);
-            this.btnReiniciar.TabIndex = 12;
-            this.btnReiniciar.Text = "Reiniciar";
-            this.btnReiniciar.UseVisualStyleBackColor = true;
-            this.btnReiniciar.Visible = false;
-            // 
-            // btnLimpiar
-            // 
-            this.btnLimpiar.Location = new System.Drawing.Point(6, 430);
-            this.btnLimpiar.Name = "btnLimpiar";
-            this.btnLimpiar.Size = new System.Drawing.Size(77, 30);
-            this.btnLimpiar.TabIndex = 13;
-            this.btnLimpiar.Text = "Limpiar";
-            this.btnLimpiar.UseVisualStyleBackColor = true;
-            this.btnLimpiar.Visible = false;
-            // 
-            // Form1
+            // TicTacToe
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::JuegoGato.Properties.Resources.gradiente;
-            this.ClientSize = new System.Drawing.Size(527, 512);
+            this.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.BackgroundImage = global::JuegoGato.Properties.Resources.abstract_blur_gradient_background_vector;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(708, 557);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
-            this.Name = "Form1";
+            this.Name = "TicTacToe";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "TicTacToe";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -414,25 +450,24 @@
         private System.Windows.Forms.Button c1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Label player1;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label Player2;
+        private System.Windows.Forms.Label Player1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label player2;
+        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.RadioButton RbUser1X;
-        private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.RadioButton RbUSer2O;
-        private System.Windows.Forms.RadioButton RbUser2X;
         private System.Windows.Forms.RadioButton RbUser1O;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.RadioButton RbUser2O;
+        private System.Windows.Forms.RadioButton RbUser2X;
         private System.Windows.Forms.TextBox txtUser2;
         private System.Windows.Forms.TextBox txtUser1;
         private System.Windows.Forms.Button btnNewGame;
-        private System.Windows.Forms.Label ptsPlayer2;
         private System.Windows.Forms.Label ptsPlayer1;
-        private System.Windows.Forms.Button btnLimpiar;
+        private System.Windows.Forms.Label ptsPlayer2;
         private System.Windows.Forms.Button btnReiniciar;
+        private System.Windows.Forms.Button btnLimpiar;
     }
 }
-
