@@ -148,7 +148,6 @@ namespace JuegoGato
                     PlayGame();
                 }
 
-
                 //En caso de que seleccionen X
                 if (RbUser1X.Checked && RbUser2X.Checked)
                 {
@@ -177,7 +176,6 @@ namespace JuegoGato
                 }
             }
         }
-
         //Agrega nombre a los jugadores
         private void PlayGame()
         {
